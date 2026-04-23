@@ -1,0 +1,104 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6] [cursor=pointer]:
+          - img "logo" [ref=e7]
+          - heading "Learn Automation Courses" [level=1] [ref=e8]
+        - generic [ref=e9]:
+          - button "Cart" [ref=e10] [cursor=pointer]
+          - generic [ref=e11]: Manage
+          - img "menu" [ref=e12] [cursor=pointer]
+          - generic [ref=e13]:
+            - generic [ref=e14]:
+              - text: Learn Automation Courses
+              - img "delete" [ref=e15] [cursor=pointer]
+            - generic [ref=e16]:
+              - link "Home" [ref=e17] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e18]: Home
+              - link "Practise" [ref=e19] [cursor=pointer]:
+                - /url: /practise
+                - generic [ref=e20]: Practise
+              - button "Sign out" [ref=e21] [cursor=pointer]
+    - generic [ref=e24]:
+      - heading "manage course Manage Courses" [level=1] [ref=e25]:
+        - img "manage course" [ref=e26]
+        - text: Manage Courses
+      - generic [ref=e27]:
+        - textbox "Search by course name, instructor name or category" [ref=e28]
+        - combobox [ref=e29]:
+          - option "Name"
+          - option "Instructor Name"
+          - option "Price"
+      - generic [ref=e30]:
+        - button "Delete Courses delete" [ref=e31] [cursor=pointer]:
+          - text: Delete Courses
+          - img "delete" [ref=e32]
+        - button "Activate Courses activate" [ref=e33] [cursor=pointer]:
+          - text: Activate Courses
+          - img "activate" [ref=e34]
+        - button "Deactivate Courses deactivate" [ref=e35] [cursor=pointer]:
+          - text: Deactivate Courses
+          - img "deactivate" [ref=e36]
+        - button "Add New Course add" [ref=e37] [cursor=pointer]:
+          - text: Add New Course
+          - img "add" [ref=e38]
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - heading "Learn Automation By Mukesh Otwani" [level=3] [ref=e43]
+        - heading "©2023 All rights reserved" [level=2] [ref=e44]
+      - generic [ref=e45] [cursor=pointer]:
+        - link [ref=e46]:
+          - /url: https://youtube.com/MukeshOtwani
+          - img [ref=e47]
+        - link [ref=e50]:
+          - /url: https://twitter.com/MukeshOtwani
+          - img [ref=e51]
+        - link [ref=e53]:
+          - /url: https://www.linkedin.com/in/mukesh-otwani-93631b99/
+          - img [ref=e54]
+        - link [ref=e56]:
+          - /url: https://www.facebook.com/groups/256655817858291
+          - img [ref=e57]
+  - dialog [active] [ref=e60]:
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]: Add New Course
+        - button "Close" [ref=e64] [cursor=pointer]
+      - generic [ref=e65]:
+        - heading "Thumbnail" [level=3] [ref=e66]
+        - button "Choose File" [ref=e67]
+        - heading "Course Name" [level=3] [ref=e68]
+        - textbox [ref=e69]
+        - heading "Description" [level=3] [ref=e70]
+        - textbox [ref=e71]
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - heading "Instructor" [level=3] [ref=e74]
+            - textbox [ref=e75]
+          - generic [ref=e76]:
+            - heading "Price" [level=3] [ref=e77]
+            - textbox [ref=e78]: "0"
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - heading "Starts From" [level=3] [ref=e81]
+            - textbox [ref=e84]: 03/30/2026
+          - generic [ref=e85]:
+            - heading "Ends On" [level=3] [ref=e86]
+            - textbox [ref=e89]: 04/30/2026
+        - generic [ref=e91]:
+          - heading "Permanent" [level=3] [ref=e92]
+          - checkbox [ref=e93]
+        - heading "Category" [level=3] [ref=e94]
+        - button "Select Category select category" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]:
+            - text: Select Category
+            - img "select category"
+      - generic [ref=e97]:
+        - button "Cancel" [ref=e98] [cursor=pointer]
+        - button "Save" [ref=e99] [cursor=pointer]
+```

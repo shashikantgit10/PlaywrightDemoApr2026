@@ -1,0 +1,9 @@
+Built in Fixture - Page, Browser, Request
+
+test.extend()- add your own custom fixture or functionality that you want in each test. 
+the result is new test object that includes page from playwright 
+and new page which we created
+
+{page} - dependency injection
+
+use - callback function provided by playwright fixture to pass the fixture value to the test

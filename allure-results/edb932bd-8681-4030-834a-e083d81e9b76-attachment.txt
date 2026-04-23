@@ -1,0 +1,2 @@
+Running Fixture For Test
+Running Fixture For Course page test

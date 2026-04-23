@@ -1,0 +1,8 @@
+{
+    "courseName":"Playwright automation",
+    "description":"Learn playwright from the scretch. This course will cover E2E automation using plyawright framework.",
+    "instructorName":"Mukesh",
+    "price":"500",
+    "category": "Java",
+    "thumbnail": "./testdata/SKY.png"
+}

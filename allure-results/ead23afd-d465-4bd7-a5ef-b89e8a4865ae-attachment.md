@@ -1,0 +1,179 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6] [cursor=pointer]:
+          - img "logo" [ref=e7]
+          - heading "Learn Automation Courses" [level=1] [ref=e8]
+        - generic [ref=e9]:
+          - button "Cart" [ref=e10] [cursor=pointer]
+          - generic [ref=e11]: Manage
+          - img "menu" [ref=e12] [cursor=pointer]
+          - generic [ref=e13]:
+            - generic [ref=e14]:
+              - text: Learn Automation Courses
+              - img "delete" [ref=e15] [cursor=pointer]
+            - generic [ref=e16]:
+              - link "Home" [ref=e17] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e18]: Home
+              - link "Practise" [ref=e19] [cursor=pointer]:
+                - /url: /practise
+                - generic [ref=e20]: Practise
+              - button "Sign out" [ref=e21] [cursor=pointer]
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - heading "manage course Manage Courses" [level=1] [ref=e25]:
+          - img "manage course" [ref=e26]
+          - text: Manage Courses
+        - generic [ref=e27]:
+          - textbox "Search by course name, instructor name or category" [ref=e28]
+          - combobox [ref=e29]:
+            - option "Name"
+            - option "Instructor Name"
+            - option "Price"
+        - generic [ref=e30]:
+          - button "Delete Courses delete" [ref=e31] [cursor=pointer]:
+            - text: Delete Courses
+            - img "delete" [ref=e32]
+          - button "Activate Courses activate" [ref=e33] [cursor=pointer]:
+            - text: Activate Courses
+            - img "activate" [ref=e34]
+          - button "Deactivate Courses deactivate" [ref=e35] [cursor=pointer]:
+            - text: Deactivate Courses
+            - img "deactivate" [ref=e36]
+          - button "Add New Course add" [ref=e37] [cursor=pointer]:
+            - text: Add New Course
+            - img "add" [ref=e38]
+      - table [ref=e40]:
+        - rowgroup [ref=e41]:
+          - row "Course Name Course Price Instructor Name Start Date End Date Active Category Enroll Count Thumbnail Download Delete" [ref=e42]:
+            - columnheader [ref=e43]
+            - columnheader "Course Name" [ref=e44]
+            - columnheader "Course Price" [ref=e45]
+            - columnheader "Instructor Name" [ref=e46]
+            - columnheader "Start Date" [ref=e47]
+            - columnheader "End Date" [ref=e48]
+            - columnheader "Active" [ref=e49]
+            - columnheader "Category" [ref=e50]
+            - columnheader "Enroll Count" [ref=e51]
+            - columnheader "Thumbnail" [ref=e52]
+            - columnheader "Download" [ref=e53]
+            - columnheader "Delete" [ref=e54]
+        - rowgroup [ref=e55]:
+          - row "TESTSCRIPT ₹5000 QA Lead 3/30/2026 4/30/2026 activate Playwright 0 thumbnail download" [ref=e56]:
+            - cell [ref=e57]
+            - cell "TESTSCRIPT" [ref=e58]
+            - cell "₹5000" [ref=e59]:
+              - generic [ref=e60]: ₹5000
+            - cell "QA Lead" [ref=e61]
+            - cell "3/30/2026" [ref=e62]
+            - cell "4/30/2026" [ref=e63]
+            - cell "activate" [ref=e64]:
+              - img "activate" [ref=e65]
+            - cell "Playwright" [ref=e66]
+            - cell "0" [ref=e67]
+            - cell "thumbnail" [ref=e68]:
+              - img "thumbnail"
+            - cell "download" [ref=e69]:
+              - link "download":
+                - /url: https://learn-automation.onrender.com/api/course/thumbnail/69ca66f8733429e267387748
+                - img "download"
+            - cell [ref=e70]
+          - row "PlaywrightSree ₹100 Sree 3/30/2026 4/30/2026 activate Playwright 0 thumbnail download" [ref=e71]:
+            - cell [ref=e72]
+            - cell "PlaywrightSree" [ref=e73]
+            - cell "₹100" [ref=e74]:
+              - generic [ref=e75]: ₹100
+            - cell "Sree" [ref=e76]
+            - cell "3/30/2026" [ref=e77]
+            - cell "4/30/2026" [ref=e78]
+            - cell "activate" [ref=e79]:
+              - img "activate" [ref=e80]
+            - cell "Playwright" [ref=e81]
+            - cell "0" [ref=e82]
+            - cell "thumbnail" [ref=e83]:
+              - img "thumbnail"
+            - cell "download" [ref=e84]:
+              - link "download":
+                - /url: https://learn-automation.onrender.com/api/course/thumbnail/69ca66a2733429e267387721
+                - img "download"
+            - cell [ref=e85]
+          - row "Selenium For Web Automation ₹1500 Mukesh Otwani 2/17/2025 3/17/2025 activate None 0 thumbnail download" [ref=e86]:
+            - cell [ref=e87]
+            - cell "Selenium For Web Automation" [ref=e88]
+            - cell "₹1500" [ref=e89]:
+              - generic [ref=e90]: ₹1500
+            - cell "Mukesh Otwani" [ref=e91]
+            - cell "2/17/2025" [ref=e92]
+            - cell "3/17/2025" [ref=e93]
+            - cell "activate" [ref=e94]:
+              - img "activate" [ref=e95]
+            - cell "None" [ref=e96]
+            - cell "0" [ref=e97]
+            - cell "thumbnail" [ref=e98]:
+              - img "thumbnail"
+            - cell "download" [ref=e99]:
+              - link "download":
+                - /url: https://learn-automation.onrender.com/api/course/thumbnail/67b2abd3289e9e7395cbd866
+                - img "download"
+            - cell [ref=e100]
+      - button "Load More" [ref=e101] [cursor=pointer]
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - heading "Learn Automation By Mukesh Otwani" [level=3] [ref=e105]
+        - heading "©2023 All rights reserved" [level=2] [ref=e106]
+      - generic [ref=e107] [cursor=pointer]:
+        - link [ref=e108]:
+          - /url: https://youtube.com/MukeshOtwani
+          - img [ref=e109]
+        - link [ref=e112]:
+          - /url: https://twitter.com/MukeshOtwani
+          - img [ref=e113]
+        - link [ref=e115]:
+          - /url: https://www.linkedin.com/in/mukesh-otwani-93631b99/
+          - img [ref=e116]
+        - link [ref=e118]:
+          - /url: https://www.facebook.com/groups/256655817858291
+          - img [ref=e119]
+  - dialog [ref=e122]:
+    - generic [ref=e123]:
+      - generic [ref=e124]:
+        - generic [ref=e125]: Add New Course
+        - button "Close" [ref=e126] [cursor=pointer]
+      - generic [ref=e127]:
+        - heading "Thumbnail" [level=3] [ref=e128]
+        - button "Choose File" [ref=e129]
+        - heading "Course Name" [level=3] [ref=e130]
+        - textbox [ref=e131]: Playwright automation
+        - heading "Description" [level=3] [ref=e132]
+        - textbox [ref=e133]: Learn playwright from the scretch. This course will cover E2E automation using plyawright framework.
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - heading "Instructor" [level=3] [ref=e136]
+            - textbox [ref=e137]: Mukesh
+          - generic [ref=e138]:
+            - heading "Price" [level=3] [ref=e139]
+            - textbox [ref=e140]: "500"
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - heading "Starts From" [level=3] [ref=e143]
+            - textbox [ref=e146]: 03/30/2026
+          - generic [ref=e147]:
+            - heading "Ends On" [level=3] [ref=e148]
+            - textbox [ref=e151]: 04/30/2026
+        - generic [ref=e153]:
+          - heading "Permanent" [level=3] [ref=e154]
+          - checkbox [checked] [active] [ref=e155]
+        - heading "Category" [level=3] [ref=e156]
+        - button "Select Category select category" [ref=e157] [cursor=pointer]:
+          - generic [ref=e158]:
+            - text: Select Category
+            - img "select category" [ref=e159]
+      - generic [ref=e160]:
+        - button "Cancel" [ref=e161] [cursor=pointer]
+        - button "Save" [ref=e162] [cursor=pointer]
+```
